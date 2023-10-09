@@ -1,0 +1,13 @@
+.maxWidthWrapper {
+  /* border: solid lightgrey; */
+  height: 60%;
+  max-width: 1000px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 16px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 16px;
+}

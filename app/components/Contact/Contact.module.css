@@ -1,0 +1,26 @@
+.wrapper {
+  background-color: hsl(180, 44%, 95%);
+  height: 500px;
+}
+
+.maxWidthWrapper {
+  /* border: solid lightgrey; */
+  height: 60%;
+  max-width: 1000px;
+  width: 70%;
+  margin: auto;
+display: flex;
+flex-direction: column;
+  gap: 16px;
+justify-content: flex-start;
+  border-radius: 10px;
+  padding: 16px;
+  gap: 48px;
+}
+
+.content {
+  display: flex;
+flex-direction: column;
+gap: 16px;
+
+}

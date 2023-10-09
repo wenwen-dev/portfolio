@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.wrapper a:visited {
+  color: inherit;
+}
+
+.wrapper a:hover {
+  color: var(--color-secondary);
+}

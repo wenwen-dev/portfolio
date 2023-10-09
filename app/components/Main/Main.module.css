@@ -1,0 +1,107 @@
+.wrapper {
+  margin-top: 5rem;
+  padding: 16px;
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  /* border: 3px solid black; */
+
+}
+
+.maxWidthWrapper {
+  max-width: 900px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  gap: 16px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid #3085C3;
+
+
+}
+.intro {
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
+  padding: 0 12px;
+  gap: 24px;
+  min-width: 50px;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+}
+.intro h1 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.intro p {
+  font-size: 1.25rem;
+  color: var(--color-primary);
+  font-weight: 300;
+}
+
+.btn {
+  border: none;
+  width: fit-content;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: var(--color-accent);
+  color: white;
+  font-size: 1rem;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+.btn a:visited {
+  color: inherit;
+}
+
+.btn a:hover {
+  text-decoration: underline;
+
+}
+
+.imageWrapper {
+  display: block;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  /* border: solid red; */
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+  font-weight: 200;
+  flex-wrap: wrap; 
+  /* Line above is the reason, buyt why??? DIGEST: */
+}
+
+.listItem {
+  padding: 4px 8px;
+  border-radius: 3px;
+  background-color: hsl(3, 40%, 96%);
+}
+
+@media (max-width: 900px) {
+  .maxWidthWrapper {
+    flex-direction: column-reverse;
+  }
+
+  .wrapper, .intro {
+    flex-wrap: wrap;
+
+  }
+
+}
+

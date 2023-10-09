@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: var(--background-color);
+  color: var(--color-primary);
+  font-size: 1rem;
+}
+
+:root {
+  --background-color: hsl(0, 0%, 100%);
+
+
+  /* --color-primary: hsl(229, 14%, 15%); */
+  /* --color-primary: hsl(234, 30%, 20%); */
+  /* --color-primary: hsl(204, 71%, 20%); */
+  /* --color-primary: hsl(207, 5%, 15%); */
+  --color-primary: hsl(210, 3%, 16%);
+  --color-secondary: hsl(205, 60%, 48%);
+  /* --color-accent: hsl(3, 80%, 66%); */
+  --color-accent: hsl(3, 60%, 56%);
+}
