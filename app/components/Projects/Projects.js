@@ -6,7 +6,11 @@ const Projects = ({ projects }) => {
   return (
     <ul>
       {projects.map(project => (
-        <Project title={project.title} description={project.description} />
+        <Project
+          key={project.title}
+          title={project.title}
+          description={project.description}
+        />
       ))}
     </ul>
   );
