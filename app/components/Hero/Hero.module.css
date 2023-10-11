@@ -1,0 +1,82 @@
+.wrapper {
+  min-height: min(80vh, 600px);
+  display: flex;
+}
+
+.maxWidthWrapper {
+  display: flex;
+  max-width: 1500px;
+  min-width: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+
+  align-items: center;
+  padding: 10vw;
+  gap: 6vw;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* flex: 1 1 0; */
+  gap: 24px;
+}
+
+.intro h1 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.intro p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+
+.imageWrapper {
+  display: block;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  /* border: solid red; */
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+  font-weight: 200;
+  flex-wrap: wrap; 
+  /* Line above is the reason, buyt why??? DIGEST: */
+}
+
+.listItem {
+  padding: 4px 8px;
+  border-radius: 3px;
+  border: 1px solid hsl(205, 70%, 90%);
+
+}
+
+@media (max-width: 900px) {
+  .maxWidthWrapper {
+    flex-direction: column-reverse;
+  }
+  .intro {
+    text-align: center;
+  }
+  .list {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .wrapper, .intro {
+    flex-wrap: wrap;
+
+  }
+
+}
+

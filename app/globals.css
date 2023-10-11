@@ -11,7 +11,7 @@ html {
 body {
   height: 100%;
   background-color: var(--background-color);
-  color: var(--color-primary);
+  color: var(--color-text);
   font-size: 1rem;
 }
 
@@ -26,5 +26,12 @@ body {
   --color-primary: hsl(210, 3%, 16%);
   --color-secondary: hsl(205, 60%, 48%);
   /* --color-accent: hsl(3, 80%, 66%); */
-  --color-accent: hsl(3, 60%, 56%);
+  /* --color-accent: hsl(3, 60%, 56%);*/
+
+  --color-text: hsl(210, 3%, 16%);
+  --background-color-blue: hsl(194, 57%, 95%);
+  /* --color-heading: hsl(225, 15%, 15%); */
+/* 
+  --breakpoint-phone: 600px;
+  --breakpoint-tablet: 950px; */
 }

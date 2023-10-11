@@ -1,10 +1,17 @@
 import React from 'react';
 import styles from './Contact.module.css';
+import Menu from '../Menu/Menu';
+import { leagueSpartan } from '@/app/fonts';
+
 const Contact = () => {
   return (
-    <div className={styles.wrapper}>
+    <div
+      className={`${styles.wrapper} ${leagueSpartan.className}`}
+      id='contact'
+    >
       <div className={styles.maxWidthWrapper}>
-        <h2>Contact Me</h2>
+        <p>Designed and Built by Wenwen Wang</p>
+        <Menu />
       </div>
     </div>
   );

@@ -1,26 +1,21 @@
 .wrapper {
-  background-color: hsl(180, 44%, 95%);
-  height: 500px;
+  background-color: var(--background-color-blue);
+  padding: 2vh 0;
 }
+
 
 .maxWidthWrapper {
-  /* border: solid lightgrey; */
-  height: 60%;
-  max-width: 1000px;
-  width: 70%;
-  margin: auto;
-display: flex;
-flex-direction: column;
-  gap: 16px;
-justify-content: flex-start;
-  border-radius: 10px;
-  padding: 16px;
-  gap: 48px;
-}
-
-.content {
   display: flex;
-flex-direction: column;
-gap: 16px;
+  max-width: 1500px;
+  min-width: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
 
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  font-weight: 200;
+  font-size: 1rem;
 }
+
