@@ -9,11 +9,7 @@ const Header = () => {
     <div className={styles.wrapper}>
       <div className={styles.maxWidthWrapper}>
         <div className={styles.logoWrapper}>
-          <p className={`${styles.logo} ${dancingScript.className}`}>
-            <Link href='/' className={styles.link}>
-              Wenwen
-            </Link>
-          </p>
+          <p className={`${styles.logo} ${dancingScript.className}`}>Wenwen</p>
           <p className={styles.dev}>.dev</p>
         </div>
         <ul className={`${styles.nav} ${leagueSpartan.className}`}>

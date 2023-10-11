@@ -32,19 +32,24 @@ const Projects = () => {
             <p>Challenges met: state variables grew stale</p>
           </div>
           <div className={styles.projectWrapper}>
-            <div className={styles.imageWrapper}>
-              <a
-                href='https://github.com/wenwen-dev/product-feedback-app-frontend'
-                target='_blank'
-              >
-                <Image
+            <a
+              href='https://github.com/wenwen-dev/product-feedback-app-frontend'
+              target='_blank'
+            >
+              <div className={styles.placeholder}></div>
+
+              {/* <div className={styles.imageWrapper}>
+                { <Image
                   src={project2}
                   alt='project screenshot'
-                  style={{ objectFit: 'scale-down', borderRadius: '4px' }}
-                  height={300}
-                />
-              </a>
-            </div>
+                  style={{
+                    objectFit: 'scale-down',
+                    borderRadius: '4px',
+                    width: '100%',
+                  }}
+                /> }
+              </div> */}
+            </a>
             <h3 className={openSans.className}>Product Feedback App</h3>
             <p>
               This is a project to practice frontend skills, incl. HTML, CSS,
