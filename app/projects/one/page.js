@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './page.module.css';
 import Header from '@/app/components/Header/Header';
-import { playfair, dancingScript } from '@/app/fonts';
+import { playfair } from '@/app/fonts';
 import Contact from '@/app/components/Contact/Contact';
 
 export const metadata = {

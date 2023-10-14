@@ -12,10 +12,6 @@ const Projects = () => {
       className={`${styles.wrapper} ${leagueSpartan.className}`}
     >
       <div className={styles.maxWidthWrapper}>
-        <p>
-          P1: mini component library, P2: sole and ankle revisited, P3: sign up
-          form P4: calculator
-        </p>
         <h2>Projects</h2>
         <div className={styles.grid}>
           <div className={styles.projectWrapper}>
@@ -23,7 +19,7 @@ const Projects = () => {
               <div className={styles.placeholder}></div>
             </a>
 
-            <h3 className={openSans.className}>Yum - a Cuisine Wishlist</h3>
+            <h3>Yum - a Cuisine Wishlist</h3>
             <p>
               My very first full stack project. Built by using React (frontend),
               Node and MongoDB (backend). It allows users to log and retrieve
@@ -48,7 +44,7 @@ const Projects = () => {
                 /> }
               </div> */}
             </a>
-            <h3 className={openSans.className}>Product Feedback App</h3>
+            <h3>Product Feedback App</h3>
             <p>
               This is a project to practice frontend skills, incl. HTML, CSS,
               JavaScript, ReactJS, TypeScript. It's a commonly seen app to track
