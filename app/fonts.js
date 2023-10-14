@@ -1,9 +1,14 @@
-import { Open_Sans, Dancing_Script, League_Spartan } from 'next/font/google';
+import {
+  // Open_Sans,
+  Dancing_Script,
+  League_Spartan,
+  Playfair,
+} from 'next/font/google';
 
-export const openSans = Open_Sans({
-  subsets: ['latin'],
-  display: 'swap',
-});
+// export const openSans = Open_Sans({
+//   subsets: ['latin'],
+//   display: 'swap',
+// });
 
 export const dancingScript = Dancing_Script({
   subsets: ['latin'],
@@ -11,6 +16,11 @@ export const dancingScript = Dancing_Script({
 });
 
 export const leagueSpartan = League_Spartan({
+  subsets: ['latin'],
+  display: 'swap',
+});
+
+export const playfair = Playfair({
   subsets: ['latin'],
   display: 'swap',
 });

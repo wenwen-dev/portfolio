@@ -12,13 +12,14 @@ const Projects = () => {
       className={`${styles.wrapper} ${leagueSpartan.className}`}
     >
       <div className={styles.maxWidthWrapper}>
+        <p>
+          P1: mini component library, P2: sole and ankle revisited, P3: sign up
+          form P4: calculator
+        </p>
         <h2>Projects</h2>
         <div className={styles.grid}>
           <div className={styles.projectWrapper}>
-            <a
-              href='https://github.com/wenwen-dev/2600-wenwenwang'
-              target='_blank'
-            >
+            <a href='/projects/one' target='_blank'>
               <div className={styles.placeholder}></div>
             </a>
 
@@ -32,10 +33,7 @@ const Projects = () => {
             <p>Challenges met: state variables grew stale</p>
           </div>
           <div className={styles.projectWrapper}>
-            <a
-              href='https://github.com/wenwen-dev/product-feedback-app-frontend'
-              target='_blank'
-            >
+            <a href='/projects/two' target='_blank'>
               <div className={styles.placeholder}></div>
 
               {/* <div className={styles.imageWrapper}>
