@@ -9,8 +9,12 @@ const Header = () => {
     <div className={styles.wrapper}>
       <div className={styles.maxWidthWrapper}>
         <div className={styles.logoWrapper}>
-          <p className={`${styles.logo} ${dancingScript.className}`}>Wenwen</p>
-          <p className={styles.dev}>.dev</p>
+          <Link href='/' className={styles.link}>
+            <p className={`${styles.logo} ${dancingScript.className}`}>
+              Wenwen
+            </p>
+            <p className={styles.dev}>.dev</p>
+          </Link>
         </div>
         <ul className={`${styles.nav} ${leagueSpartan.className}`}>
           <li>

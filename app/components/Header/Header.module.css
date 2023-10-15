@@ -61,6 +61,12 @@
   color: var(--color-secondary);
 }
 
+.logoWrapper .link{
+  color: var(--color-secondary);
+  display: flex;
+  align-items: baseline;
+}
+
 
 
 @media (max-width: 600px) {
