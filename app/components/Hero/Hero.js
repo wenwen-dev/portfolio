@@ -21,7 +21,7 @@ const Main = () => {
             <li className={styles.listItem}>React.js</li>
             <li className={styles.listItem}>Git</li>
             <li className={styles.listItem}>Next.js</li>
-            <li className={styles.listItem}>mongoDB</li>
+
             <li className={styles.listItem}>Agile</li>
             <li className={styles.listItem}>C++</li>
           </ul>
