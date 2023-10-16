@@ -3,14 +3,11 @@ import styles from './Projects.module.css';
 import Image from 'next/image';
 // import yum from './../../../public/yum.png';
 import project2 from './../../../public/project2.png';
-import { leagueSpartan, openSans } from '@/app/fonts';
+import { fontBody } from '@/app/fonts';
 
 const Projects = () => {
   return (
-    <div
-      id='projects'
-      className={`${styles.wrapper} ${leagueSpartan.className}`}
-    >
+    <div id='projects' className={`${styles.wrapper} ${fontBody.className}`}>
       <div className={styles.maxWidthWrapper}>
         <h2>Projects</h2>
         <div className={styles.grid}>

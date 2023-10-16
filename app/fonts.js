@@ -1,21 +1,27 @@
 import {
-  // Open_Sans,
-  Dancing_Script,
+  Sacramento,
+  Roboto_Slab,
   League_Spartan,
-  Playfair,
+  Dancing_Script,
 } from 'next/font/google';
 
-export const dancingScript = Dancing_Script({
+export const fontLogo = Sacramento({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: '400',
+});
+
+export const fontScript = Dancing_Script({
   subsets: ['latin'],
   display: 'swap',
 });
 
-export const leagueSpartan = League_Spartan({
+export const fontBody = League_Spartan({
   subsets: ['latin'],
   display: 'swap',
 });
 
-export const playfair = Playfair({
+export const fontHeading = Roboto_Slab({
   subsets: ['latin'],
   display: 'swap',
 });

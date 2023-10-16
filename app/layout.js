@@ -1,5 +1,5 @@
 import './globals.css';
-import { openSans, leagueSpartan } from './fonts';
+import { openSans, leagueSpartan, fontBody } from './fonts';
 
 export const metadata = {
   title: 'Wenwen Wang',
@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={leagueSpartan.className}>{children}</body>
+      <body className={fontBody.className}>{children}</body>
     </html>
   );
 }

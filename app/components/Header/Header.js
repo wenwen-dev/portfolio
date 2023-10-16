@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from './Header.module.css';
-import { dancingScript } from '@/app/fonts';
-import { leagueSpartan } from '@/app/fonts';
 import Link from 'next/link';
+import { fontLogo, fontBody } from '@/app/fonts';
 
 const Header = () => {
   return (
@@ -10,13 +9,11 @@ const Header = () => {
       <div className={styles.maxWidthWrapper}>
         <div className={styles.logoWrapper}>
           <Link href='/' className={styles.link}>
-            <p className={`${styles.logo} ${dancingScript.className}`}>
-              Wenwen
-            </p>
+            <p className={`${styles.logo} ${fontLogo.className}`}>Wenwen</p>
             <p className={styles.dev}>.dev</p>
           </Link>
         </div>
-        <ul className={`${styles.nav} ${leagueSpartan.className}`}>
+        <ul className={`${styles.nav} ${fontBody.className}`}>
           <li>
             <Link href='#about' className={styles.link}>
               About

@@ -5,9 +5,9 @@
 }
 
 .wrapper h2 {
-  font-weight: 500;
-  font-size: 2rem;
-  color: rgb(124, 182, 222)
+  font-weight: var(--font-weight-thin);
+  font-size: var(--font-size-h2);
+  color: hsl(204, 60%, 48%)
 }
 
 .wrapper span {
@@ -33,8 +33,8 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1;
   gap: 32px;
-  font-size: 1.25rem;
-  font-weight: 200;
+  /* font-size: 1.25rem; */
+  font-weight: var(--font-weight-thin);
   line-height: 1.5;
 }
 

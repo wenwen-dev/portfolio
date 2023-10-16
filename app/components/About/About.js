@@ -1,15 +1,15 @@
 import React from 'react';
 import styles from './About.module.css';
-import { leagueSpartan, dancingScript } from '@/app/fonts';
+import { fontBody, fontScript, fontHeading } from '@/app/fonts';
 
 const About = () => {
   return (
     <div className={styles.wrapper} id='about'>
       <div className={styles.maxWidthWrapper}>
-        <h2 className={dancingScript.className}>
-          A Little <span className={leagueSpartan.className}>About</span> Me
+        <h2 className={fontScript.className}>
+          A Little <span className={fontBody.className}>About</span> Me
         </h2>
-        <div className={`${leagueSpartan.className} ${styles.content}`}>
+        <div className={`${fontBody.className} ${styles.content}`}>
           <div className={styles.left}>
             <p>
               When I told my parents that I was quitting my job at Apple and

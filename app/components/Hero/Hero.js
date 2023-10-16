@@ -2,13 +2,14 @@ import React from 'react';
 import styles from './Hero.module.css';
 import Image from 'next/image';
 import profileImg from '../../../public/profile.png';
+import { fontHeading } from '@/app/fonts';
 
 const Main = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.maxWidthWrapper}>
         <div className={styles.intro}>
-          <h1>Hi there, I'm Wenwen.</h1>
+          <h1 className={fontHeading.className}>Hi there, I'm Wenwen.</h1>
           <p>
             I love building interactive, accessible, and responsive web
             applications.
