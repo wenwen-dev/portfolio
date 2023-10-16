@@ -1,0 +1,29 @@
+.nav {  
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--color-blue);
+}
+
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.link:visited {
+  color: currentColor;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: var(--color-accent);
+}
+
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  color: var(--color-blue);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-logo);
+}
+
+.dev {
+  font-size: var(--font-size-body);
+  font-style: italic;
+  font-weight: var(--font-weight-light);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:visited {
+  color: currentColor;
+}

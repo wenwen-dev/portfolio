@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './page.module.css';
 import Header from '@/app/components/Header/Header';
-import { playfair } from '@/app/fonts';
 import Contact from '@/app/components/Contact/Contact';
 
 export const metadata = {
@@ -14,7 +13,7 @@ const project1 = () => {
     <div className={styles.wrapper}>
       <Header />
       <main>
-        <h1 className={playfair.className}>Sole&Ankle</h1>
+        <h1>Sole&Ankle</h1>
         <div className={styles.section}>
           <p>
             This is a workshop of Josh Comeau's CSS for JS Developers course.

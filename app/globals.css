@@ -33,12 +33,20 @@ body {
   --letter-spacing-heading: -1.25px;
   --letter-spacing-body: 0.7px;
 
-  --background-color: hsl(0, 0%, 100%);
-  --color-primary: hsl(210, 3%, 16%);
-  --color-secondary: hsl(205, 60%, 48%);
-  /* --color-accent: hsl(3, 80%, 66%); */
+  --background-color-white: hsl(0, 0%, 100%);
+  --background-color-blue: hsl(194, 57%, 95%);
+
+  --color-black: hsl(210, 3%, 16%);
+  --color-blue: hsl(205, 60%, 48%);
+  --color-accent: hsl(3, 80%, 66%);
   /* --color-accent: hsl(3, 60%, 56%);*/
 
-  --color-text: hsl(210, 3%, 16%);
-  --background-color-blue: hsl(194, 57%, 95%);
+  --padding: 16px;
+
+  --max-width: 1400px;
+
+  /* Breakpoints
+  - tablet: 950px
+  - mobile: 600px
+   */
 }

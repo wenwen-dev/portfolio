@@ -4,6 +4,7 @@ import Image from 'next/image';
 // import yum from './../../../public/yum.png';
 import project2 from './../../../public/project2.png';
 import { fontBody } from '@/app/fonts';
+import Link from 'next/link';
 
 const Projects = () => {
   return (
@@ -12,9 +13,9 @@ const Projects = () => {
         <h2>Projects</h2>
         <div className={styles.grid}>
           <div className={styles.projectWrapper}>
-            <a href='/projects/one' target='_blank'>
+            <Link href='/projects/one' target='_blank'>
               <div className={styles.placeholder}></div>
-            </a>
+            </Link>
 
             <h3>Yum - a Cuisine Wishlist</h3>
             <p>
@@ -26,7 +27,7 @@ const Projects = () => {
             <p>Challenges met: state variables grew stale</p>
           </div>
           <div className={styles.projectWrapper}>
-            <a href='/projects/two' target='_blank'>
+            <Link href='/projects/two'>
               <div className={styles.placeholder}></div>
 
               {/* <div className={styles.imageWrapper}>
@@ -40,7 +41,7 @@ const Projects = () => {
                   }}
                 /> }
               </div> */}
-            </a>
+            </Link>
             <h3>Product Feedback App</h3>
             <p>
               This is a project to practice frontend skills, incl. HTML, CSS,
