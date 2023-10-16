@@ -1,31 +1,28 @@
 .wrapper {
   background-color: var(--background-color-blue);
+  padding: var(--padding-vertical) 0;
+}
+
+.maxWidthWrapper {
   display: flex;
-  position: relative;
-  padding: 5vh 0;
+  max-width: var(--max-width);
+  min-width: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--padding);
+
+  flex-direction: column;
+  gap: 32px;
 }
 
 .wrapper h2 {
   font-weight: var(--font-weight-thin);
   font-size: var(--font-size-h2);
-  color: hsl(204, 60%, 48%)
+  color: var(--color-blue);
 }
 
 .wrapper span {
-  color: var(--color-secondary);
-}
-
-.maxWidthWrapper {
-  display: flex;
-  max-width: 1500px;
-  min-width: min-content;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 16px;
-  /* border: solid gold; */
-
-  flex-direction: column;
-  gap: 32px;
+  font-weight: var(--font-weight-normal);
 }
 
 .content {

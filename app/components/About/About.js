@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './About.module.css';
-import { fontBody, fontScript, fontHeading } from '@/app/fonts';
+import { fontBody, fontScript } from '@/app/fonts';
 
 const About = () => {
   return (
@@ -20,9 +20,10 @@ const About = () => {
               about?"
             </p>
             <p>
-              That was such a hard question to answer, because an honest reply -
-              "Because learning new stuff would make me happy" - would sound
-              ridiculous and disrespectful to him.
+              That was one of the hardest conversations I've ever had, because
+              we were essentially discussing how our core values are different
+              (continuous learning and improvement vs. job security, taking on
+              challenges vs. staying in the comfort zone).
             </p>
             <p>
               My family eventually came to peace with my decision. And I'm now
@@ -32,19 +33,26 @@ const About = () => {
             </p>
           </div>
           <div className={styles.right}>
-            <p>
+            {/* <p>
               Continuous learning and improvement is buried deep in my DNA.
               Looking back, I made most of my big life decisions based on
               whether there's an opportunity for me to learn: moving to the big
               city Beijing to learn English, studying in the UK to learn
               intercutural communication, transferring to another function at
               Apple to learn a new business...
+            </p> */}
+            <p>
+              This unyielding passion for learning and growth has been helping
+              me to stay curious and grow stronger against challenges and
+              setbacks. I'm a firm believer in "productive failure" and it's one
+              of the assets that I hope to bring to the team.
             </p>
             <p>
-              This unyielding passion for learning and growth have helped me
-              (and is still helping me) stay curious and grow stronger against
-              challenges and setbacks, and it's what I hope to bring to the
-              team.
+              My favourite part of the day is the first hour. I reserve 7-8am of
+              every day for building cool stuff with React.js, rain or shine. So
+              no matter how chaotic (or peaceful) the rest of my day gets, I'll
+              feel content knowing I've completed the most important task and
+              have gotten a bit better at building web apps.
             </p>
             <p>
               When I'm not in a staring contest with my computer, I like playing
