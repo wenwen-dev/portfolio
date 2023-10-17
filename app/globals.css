@@ -44,7 +44,7 @@ body {
   --color-accent: hsl(3, 80%, 66%);
   /* --color-accent: hsl(3, 60%, 56%);*/
 
-  --padding: 90px;
+  --padding: 56px;
   --padding-vertical: 5vh;
 
   --max-width: 1400px;
