@@ -3,7 +3,6 @@ import styles from './Contact.module.css';
 import Menu from '../Menu/Menu';
 import { fontScript } from '@/app/fonts';
 import Footer from '../Footer/Footer';
-import ContactForm from '../ContactForm/COntactForm';
 
 const Contact = () => {
   return (
