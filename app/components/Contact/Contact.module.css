@@ -1,11 +1,11 @@
 .wrapper {
   background-color: var(--background-color-blue);
-  padding: 2vh 0;
+  padding: var(--padding);
 }
-
 
 .maxWidthWrapper {
   display: flex;
+  flex-direction: column;
   max-width: 1500px;
   min-width: min-content;
   margin-left: auto;
@@ -13,10 +13,20 @@
   padding: 0 16px;
 
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 48px;
-  font-weight: 200;
-  font-size: 1rem;
+}
+
+.wrapper h2 {
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-h2);
+  color: var(--color-blue);
+  letter-spacing: var(--letter-spacing-heading);
+  margin-bottom: 48px;
+}
+
+.form {
+
 }
 
 

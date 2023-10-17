@@ -1,10 +1,12 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import Menu from '../Menu/Menu';
 
 const Footer = () => {
   return (
     <div className={styles.wrapper}>
-      © 2023-present Wenwen Wang. All Rights Reserved.
+      <p>Designed and Built by Wenwen Wang</p>
+      <Menu />
     </div>
   );
 };

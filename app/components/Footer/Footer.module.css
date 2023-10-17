@@ -1,12 +1,10 @@
 .wrapper {
-  background-color: lightgrey;
+  background-color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: hsl(3, 90%, 66%);
-
+  justify-content: space-between;
+padding: 24px;
   height: 70px;
   font-size: 0.9rem;
-  color: white;
 
 }
