@@ -9,7 +9,9 @@ const Main = () => {
     <div className={styles.wrapper}>
       <div className={styles.maxWidthWrapper}>
         <div className={styles.intro}>
-          <h1 className={fontHeading.className}>Hi there, I'm Wenwen.</h1>
+          <h1 className={fontHeading.className}>
+            Hi there, I'm <span>Wenwen</span>.
+          </h1>
           <p>
             I love building interactive, accessible, and responsive web
             applications.
