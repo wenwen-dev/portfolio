@@ -4,10 +4,18 @@
 }
 
 .wrapper label {
+  font-weight: var(--font-weight-thin);
+  font-size: var(--font-size-body);
+  color: black;
 
 }
 
 .wrapper input,
 .wrapper textarea {
-  line-height: 2;
+  font-weight: var(--font-weight-thin);
+  font-size: var(--font-size-body);
+  line-height: 1.85rem;
+  /* width: 100%; */
+  border: 1px solid hsl(205 60% 48% / 0.6);
+  border-radius: 3px;
 }

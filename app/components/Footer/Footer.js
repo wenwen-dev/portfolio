@@ -4,10 +4,11 @@ import Menu from '../Menu/Menu';
 
 const Footer = () => {
   return (
-    <div className={styles.wrapper}>
-      <p>Designed and Built by Wenwen Wang</p>
-      <Menu />
-    </div>
+    <footer className={styles.wrapper}>
+      <p>Designed and Built by &copy;Wenwen Wang</p>
+      {/* <p>© 2023-present Wenwen Wang. All Rights Reserved.</p> */}
+      {/* <Menu /> */}
+    </footer>
   );
 };
 

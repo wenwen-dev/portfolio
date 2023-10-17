@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Hero.module.css';
-import Image from 'next/image';
 import profileImg from '../../../public/profile.png';
 import { fontHeading } from '@/app/fonts';
 
@@ -29,13 +28,7 @@ const Main = () => {
           </ul>
         </div>
         <div className={styles.imageWrapper}>
-          <Image
-            src={profileImg}
-            alt='profile-photo'
-            width={260}
-            height={260}
-            style={{ objectFit: 'cover', borderRadius: '50%' }}
-          />
+          <img src='/profile.png' alt='profile-photo' />
         </div>
       </div>
     </div>

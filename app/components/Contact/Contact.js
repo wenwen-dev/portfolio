@@ -2,9 +2,8 @@ import React from 'react';
 import styles from './Contact.module.css';
 import Menu from '../Menu/Menu';
 import { fontScript } from '@/app/fonts';
-import TextInput from '@/app/TextInput/TextInput';
 import Footer from '../Footer/Footer';
-import Button from '../Button/Button';
+import ContactForm from '../ContactForm/COntactForm';
 
 const Contact = () => {
   return (
@@ -13,12 +12,16 @@ const Contact = () => {
         <h2>
           Contact <span className={fontScript.className}>Me</span>
         </h2>
-        <form className={styles.form}>
-          <TextInput label='Name' />
-          <TextInput label='Email' />
-          <TextInput isTextArea={true} label='Message' />
-          <button>Send</button>
-        </form>
+        <div className={styles.lowerWrapper}>
+          <div className={styles.getInTouch}>
+            <p>
+              I'd love to discuss how I can potentially add value to your team,
+              and/or hear about amazing stuff you are working on. Let's connect!
+            </p>
+            <Menu />
+          </div>
+          {/* <ContactForm /> */}
+        </div>
       </div>
     </div>
   );

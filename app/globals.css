@@ -45,6 +45,7 @@ body {
   /* --color-accent: hsl(3, 60%, 56%);*/
 
   --padding: 56px;
+  --padding-mobile: 40px;
   --padding-vertical: 5vh;
 
   --max-width: 1400px;
