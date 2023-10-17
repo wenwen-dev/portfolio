@@ -3,7 +3,7 @@
   max-width: var(--max-width);
   margin-left: auto;
   margin-right: auto;
-  padding: 16px var(--padding);
+  padding: 24px var(--padding);
   display: flex;
   justify-content: space-between;
   align-items: baseline;
