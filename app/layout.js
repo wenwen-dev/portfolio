@@ -1,5 +1,5 @@
 import './globals.css';
-import { openSans, leagueSpartan, fontBody } from './fonts';
+import { fontBody } from './fonts';
 
 export const metadata = {
   title: 'Wenwen Wang',

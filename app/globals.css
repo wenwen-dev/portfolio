@@ -23,7 +23,7 @@ body {
   --font-size-logo: calc(54 / 16 * 1rem);
   --font-size-h1: calc(42 / 16 * 1rem);
   --font-size-h2: calc(35 / 16 * 1rem);
-  --font-size-h3: calc(28 / 16 * 1rem);
+  --font-size-h3: calc(26 / 16 * 1rem);
   --font-size-label: calc(14.4 / 16 * 1rem);
 
   /* https://typescale.com/ */

@@ -1,14 +1,13 @@
 'use client';
 
 import React from 'react';
-import TextInput from '@/app/TextInput/TextInput';
+import TextInput from '@/app/components/TextInput/TextInput';
 import Button from '../Button/Button';
 import styles from './ContactForm.module.css';
 
 const ContactForm = () => {
   function handleSubmit(event) {
     event.preventDefault();
-    window.alert('submitted');
   }
 
   return (

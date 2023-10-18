@@ -3,6 +3,7 @@ import {
   Roboto_Slab,
   League_Spartan,
   Dancing_Script,
+  Montserrat,
 } from 'next/font/google';
 
 export const fontLogo = Sacramento({
@@ -21,7 +22,8 @@ export const fontBody = League_Spartan({
   display: 'swap',
 });
 
-export const fontHeading = Roboto_Slab({
+export const fontHeading = Montserrat({
   subsets: ['latin'],
   display: 'swap',
+  // weight: ['100', '400'],
 });

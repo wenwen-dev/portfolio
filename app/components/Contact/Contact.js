@@ -15,8 +15,9 @@ const Contact = () => {
           <div className={styles.getInTouch}>
             <p>
               I'd love to discuss how I can potentially add value to your team,
-              and/or hear about amazing stuff you are working on. Let's connect!
+              and/or hear about amazing stuff you are working on.
             </p>
+            <p>Let's connect!</p>
             <Menu />
           </div>
           {/* <ContactForm /> */}
