@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Hero.module.css';
 import profileImg from '../../../public/profile.png';
 import { fontHeading } from '@/app/fonts';
+import Image from 'next/image';
 
 const Main = () => {
   return (
@@ -27,9 +28,14 @@ const Main = () => {
             <li className={styles.listItem}>C++</li>
           </ul>
         </div>
-        <div className={styles.imageWrapper}>
-          <img src='/profile.png' alt='profile-photo' />
-        </div>
+        <Image
+          src={profileImg}
+          alt='profile picture of Wenwen'
+          width={300}
+          height={300}
+          sizes='300px (max-width: 650px) 60vw'
+          style={{ borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+        />
       </div>
     </div>
   );
