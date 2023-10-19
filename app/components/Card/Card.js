@@ -9,7 +9,11 @@ const Card = ({ project }) => {
 
   return (
     <div className={styles.wrapper}>
-      <Link href={project.href} style={{ position: 'relative' }}>
+      <Link
+        href={project.href}
+        target='_blank'
+        style={{ position: 'relative' }}
+      >
         <div className={styles.imageWrapper}>
           <Image
             src={project.imgSrc}

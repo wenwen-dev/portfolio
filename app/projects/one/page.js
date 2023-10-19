@@ -21,7 +21,7 @@ const Project1 = () => {
           title='Portfolio Website'
           className={fontHeading.className}
         >
-          <p>The goal of this project was to practice ...</p>
+          <p></p>
           <SectionWithHeading
             level={2}
             title='Goals and Purpose'
