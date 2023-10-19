@@ -34,7 +34,7 @@ const Main = () => {
           width={300}
           height={300}
           sizes='300px (max-width: 650px) 60vw'
-          style={{ borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
+          style={{ borderRadius: '50%', objectFit: 'cover', aspectRatio: 1 }}
         />
       </div>
     </div>

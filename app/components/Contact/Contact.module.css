@@ -1,11 +1,13 @@
 .wrapper {
   background-color: var(--background-color-blue);
+  /* padding: var(--padding-vertical) 0; */
+
 }
 
 .maxWidthWrapper {
   display: flex;
   flex-direction: column;
-  max-width: 1500px;
+  max-width: var(--max-width);
   min-width: min-content;
   margin-left: auto;
   margin-right: auto;
