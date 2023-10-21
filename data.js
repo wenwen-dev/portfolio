@@ -1,17 +1,17 @@
-export const projectOne = {
-  title: 'Profile Website',
-  imgSrc: '/project1.png',
+export const projectPortfolio = {
+  title: 'Portfolio Website',
+  href: '/projects/portfolio',
+  imgSrc: '/portfolio.png',
   imgAlt: 'screenshot of profile website',
   description:
-    'My website to showcase skills and projects. Built from scratch without using CSS libraries such as Material UI.',
-  href: 'https://github.com/wenwen-dev/portfolio',
+    'A responsive and accessible website showcasing my web dev skills',
 };
 
-export const projectTwo = {
+export const projectComponentLibrary = {
   title: 'Mini Component Library',
-  imgSrc: '/project2.png',
+  href: 'https://github.com/wenwen-dev/my-component-library/tree/main/components',
+  imgSrc: '/componentLibrary.png',
   imgAlt: 'screenshot of components',
   description:
     'Built low level components from scratch, practicing combining markup, styles, and logic into a single reusable component',
-  href: 'https://github.com/wenwen-dev/my-component-library/tree/main/components',
 };

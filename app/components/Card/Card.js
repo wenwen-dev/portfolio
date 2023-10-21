@@ -5,8 +5,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Card = ({ project }) => {
-  // const delegatedStyles = className;
-
   return (
     <div className={styles.wrapper}>
       <Link
@@ -31,7 +29,9 @@ const Card = ({ project }) => {
         </div>
       </Link>
       <div className={styles.projectDescription}>
-        <h3>{project.title}</h3>
+        <Link href='/projects/one' target='_blank' className={styles.link}>
+          <h3>{project.title}</h3>
+        </Link>
         <p>{project.description}</p>
         <Button href={project.href}>Details</Button>
       </div>
