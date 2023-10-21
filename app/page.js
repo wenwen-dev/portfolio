@@ -6,11 +6,12 @@ import Projects from './components/Projects/Projects';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Logo from './components/Logo/Logo';
+import { navHomepage } from '@/data';
 
 export default function Home() {
   return (
     <div className={styles.wrapper}>
-      <Header>
+      <Header nav={navHomepage}>
         <Logo />
       </Header>
       <Hero />

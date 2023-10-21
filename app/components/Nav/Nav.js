@@ -3,24 +3,16 @@ import styles from './Nav.module.css';
 import { fontBody } from '@/app/fonts';
 import Link from 'next/link';
 
-const Nav = () => {
+const Nav = ({ links }) => {
   return (
     <ul className={`${styles.nav} ${fontBody.className}`}>
-      <li className={styles.links}>
-        <Link href='#about' className={styles.link}>
-          About
-        </Link>
-      </li>
-      <li>
-        <Link href='#projects' className={styles.link}>
-          Projects
-        </Link>
-      </li>
-      <li>
-        <Link href='#contact' className={styles.link}>
-          Contact
-        </Link>
-      </li>
+      {links.map(link => (
+        <li key={link.label} className={styles.links}>
+          <Link href={link.href} className={styles.link}>
+            {link.label}
+          </Link>
+        </li>
+      ))}
     </ul>
   );
 };

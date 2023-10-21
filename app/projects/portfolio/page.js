@@ -6,6 +6,7 @@ import { fontHeading } from '@/app/fonts';
 import Contact from '@/app/components/Contact/Contact';
 import Footer from '@/app/components/Footer/Footer';
 import Link from 'next/link';
+import { navProject } from '@/data';
 
 export const metadata = {
   title: "Wenwen's Project - Portfolio Website",
@@ -15,7 +16,7 @@ export const metadata = {
 const Project1 = () => {
   return (
     <div className={styles.wrapper}>
-      <Header />
+      <Header nav={navProject} />
       <main className={`${fontHeading.className} ${styles.main}`}>
         <SectionWithHeading
           level={1}

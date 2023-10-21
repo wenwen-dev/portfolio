@@ -15,3 +15,25 @@ export const projectComponentLibrary = {
   description:
     'Built low level components from scratch, practicing combining markup, styles, and logic into a single reusable component',
 };
+
+export const navHomepage = [
+  {
+    label: 'About',
+    href: '#About',
+  },
+  {
+    label: 'Projects',
+    href: '#projects',
+  },
+  {
+    label: 'Contact',
+    href: '#contact',
+  },
+];
+
+export const navProject = [
+  {
+    label: 'Home',
+    href: '/',
+  },
+];

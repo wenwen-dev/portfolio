@@ -4,11 +4,11 @@ import { fontLogo, fontBody } from '@/app/fonts';
 import Logo from '../Logo/Logo';
 import Nav from '../Nav/Nav';
 
-const Header = () => {
+const Header = ({ nav }) => {
   return (
     <header className={styles.wrapper}>
       <Logo />
-      <Nav />
+      <Nav links={nav} />
     </header>
   );
 };
