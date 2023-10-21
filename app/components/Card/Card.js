@@ -29,7 +29,7 @@ const Card = ({ project }) => {
         </div>
       </Link>
       <div className={styles.projectDescription}>
-        <Link href='/projects/one' target='_blank' className={styles.link}>
+        <Link href={project.href} target='_blank' className={styles.link}>
           <h3>{project.title}</h3>
         </Link>
         <p>{project.description}</p>
