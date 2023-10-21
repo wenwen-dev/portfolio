@@ -12,14 +12,10 @@ const Projects = () => {
           <span className={fontScript.className}>My</span> Projects
         </h2>
         <p>
-          As an aspiring junior web developer, I carefully and consciously
-          selected each project to develop the essential skills for the role. No
-          patched-up borrowed code. No libraries which would defeat the purpose
-          of learning the craft. Small but{' '}
-          <span>
-            <em>concrete</em>
-          </span>{' '}
-          projects.
+          As a junior developer, I refrain from using UI frameworks that would
+          defeat the purpose of learning the craft. The sizes of my projects are
+          on the smaller side at this stage, but I code with scalability and
+          maintainability in mind.
         </p>
         <div className={styles.projectsContainer}>
           <Card project={projectOne} />

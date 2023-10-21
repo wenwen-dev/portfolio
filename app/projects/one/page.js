@@ -5,6 +5,7 @@ import SectionWithHeading from '@/app/components/SectionWithHeading/SectionWithH
 import { fontHeading } from '@/app/fonts';
 import Contact from '@/app/components/Contact/Contact';
 import Footer from '@/app/components/Footer/Footer';
+import Link from 'next/link';
 
 export const metadata = {
   title: "Wenwen's Project One",
@@ -21,13 +22,21 @@ const Project1 = () => {
           title='Portfolio Website'
           className={fontHeading.className}
         >
-          <p></p>
+          <p>
+            My portfolio website that I designed and built from scratch. It
+            features an easy-to-maintain component architecture, responsive
+            design, accessibility, and my own design tokens.
+          </p>
+          <p>Tech stack: ReactJS, CSS Module, Figma</p>
+          <div>
+            <Link href='https://github.com/wenwen-dev/portfolio'>See code</Link>
+          </div>
           <SectionWithHeading
             level={2}
             title='Goals and Purpose'
             className={fontHeading.className}
           >
-            <p>The goals are.</p>
+            <p>This site is to introduce myself to potential employers.</p>
           </SectionWithHeading>
           <SectionWithHeading level={2} title='Spotlight'>
             <p>Spotlight...</p>
