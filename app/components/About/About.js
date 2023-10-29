@@ -56,7 +56,7 @@ const About = () => {
             </p>
             <p>
               When I'm not in a staring contest with my computer, I like playing
-              fetch with my dog Potato and exploring Richmond's cuisine heaven
+              fetch with my dog Tato and exploring Richmond's cuisine heaven
               (lifetime Hei Hei Rice Roll fan).
             </p>
           </div>

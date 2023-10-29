@@ -19,7 +19,7 @@ body {
 }
 
 :root {
-  --font-size-body: calc(20 / 16 * 1rem);
+  --font-size-body: calc(22 / 16 * 1rem);
   --font-size-logo: calc(54 / 16 * 1rem);
   --font-size-h1: calc(42 / 16 * 1rem);
   --font-size-h2: calc(35 / 16 * 1rem);

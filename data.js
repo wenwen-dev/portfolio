@@ -19,7 +19,7 @@ export const projectComponentLibrary = {
 export const navHomepage = [
   {
     label: 'About',
-    href: '#About',
+    href: '#about',
   },
   {
     label: 'Projects',

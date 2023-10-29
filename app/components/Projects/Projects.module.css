@@ -46,4 +46,7 @@
   .maxWidthWrapper {
     padding: var(--padding-mobile);
   }
+  .wrapper h2 + p {
+    max-width: 100%;
+  }
 }

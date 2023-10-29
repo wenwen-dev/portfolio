@@ -17,12 +17,13 @@ const Main = () => {
             applications.
           </p>
           <ul className={styles.list}>
-            <li className={styles.listItem}>HTML</li>
-            <li className={styles.listItem}>CSS</li>
             <li className={styles.listItem}>JavaScript</li>
             <li className={styles.listItem}>React.js</li>
             <li className={styles.listItem}>Git</li>
             <li className={styles.listItem}>Next.js</li>
+
+            <li className={styles.listItem}>HTML</li>
+            <li className={styles.listItem}>CSS</li>
 
             <li className={styles.listItem}>Agile</li>
             <li className={styles.listItem}>C++</li>
