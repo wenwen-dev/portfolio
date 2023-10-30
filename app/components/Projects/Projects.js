@@ -1,7 +1,12 @@
 import React from 'react';
 import styles from './Projects.module.css';
 import Card from '../Card/Card';
-import { projectPortfolio, projectComponentLibrary } from '@/data';
+import {
+  projectPortfolio,
+  projectComponentLibrary,
+  filmsDatabase,
+  jokes,
+} from '@/data';
 import { fontScript } from '@/app/fonts';
 
 const Projects = () => {
@@ -18,6 +23,9 @@ const Projects = () => {
           maintainability in mind.
         </p>
         <div className={styles.projectsContainer}>
+          <Card project={jokes} />
+
+          <Card project={filmsDatabase} />
           <Card project={projectPortfolio} />
           <Card project={projectComponentLibrary} />
         </div>

@@ -1,3 +1,21 @@
+export const filmsDatabase = {
+  title: 'Films Database',
+  href: 'https://github.com/wenwen-dev/films',
+  imgSrc: '/films.png',
+  imgAlt: 'screenshot of films database',
+  description:
+    'A full stack films database app with JavaScript, Express.js, and MongoDB',
+};
+
+export const jokes = {
+  title: 'Jokes App',
+  href: 'https://github.com/wenwen-dev/jokes-app',
+  imgSrc: '/jokes.png',
+  imgAlt: 'screenshot of Jokes App',
+  description:
+    'A full stack jokes app built with React, Express.js, and 3rd-party API',
+};
+
 export const projectPortfolio = {
   title: 'Portfolio Website',
   href: '/projects/portfolio',
